@@ -1,568 +1,169 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professional Resume</title>
-
-<!-- Icons -->
-<!-- <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-    background:#f0f4f8;
-    padding:30px;
-}
-
-.resume{
-    width:1000px;
-    margin:auto;
-    display:flex;
-    background:white;
-    border-radius:15px;
-    overflow:hidden;
-    box-shadow:0 10px 30px rgba(0,0,0,.2);
-}
-
-/* LEFT SIDE */
-
-.left{
-    width:35%;
-    background:#0d3b66;
-    color:white;
-    padding:30px;
-    text-align:center;
-}
-
-.left img{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    border:5px solid white;
-    object-fit:cover;
-    margin-bottom:20px;
-}
-
-.left h1{
-    font-size:32px;
-}
-
-.left h3{
-    color:#f4d35e;
-    margin-top:10px;
-}
-
-.section{
-    margin-top:30px;
-    text-align:left;
-}
-
-.section h2{
-    margin-bottom:15px;
-    border-bottom:2px solid white;
-    padding-bottom:5px;
-}
-
-.section p,
-.section li{
-    margin:10px 0;
-    line-height:1.7;
-}
-
-.section ul{
-    padding-left:20px;
-}
-
-/* RIGHT SIDE */
-
-.right{
-    width:65%;
-    padding:40px;
-}
-
-.right h2{
-    color:#0d3b66;
-    border-left:6px solid #0d3b66;
-    padding-left:10px;
-    margin-bottom:15px;
-}
-
-.right p{
-    line-height:1.8;
-    margin-bottom:20px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-}
-
-table th{
-    background:#0d3b66;
-    color:white;
-}
-
-table th,
-table td{
-    padding:12px;
-    border:1px solid #ddd;
-    text-align:center;
-}
-
-.skills{
-    display:flex;
-    flex-wrap:wrap;
-    gap:15px;
-}
-
-.skill{
-    background:#0d3b66;
-    color:white;
-    padding:10px 20px;
-    border-radius:25px;
-}
-
-.card{
-    background:#eef6ff;
-    padding:20px;
-    border-radius:10px;
-    margin-top:20px;
-}
-
-a{
-    color:#0d3b66;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.quote{
-    background:#fff7df;
-    padding:20px;
-    border-left:6px solid orange;
-    border-radius:10px;
-    margin-top:20px;
-    font-style:italic;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<div class="resume">
-
-<div class="left">
-
-<img src="profile.jpg" alt="Profile Photo">
-
-<h1>NIKSHIPTHA YEPUGANTI</h1>
-
-<h3>B.Tech Student | Aspiring Developer</h3>
-
-<div class="section">
-
-<h2>Contact</h2>
-
-<p><i class="fa-solid fa-envelope"></i> nikshiyepuganti@gmail.com</p>
-
-<p><i class="fa-solid fa-phone"></i> 9581158424</p>
-
-<p><i class="fa-solid fa-location-dot"></i> Andhra Pradesh, India</p>
-
-</div>
-
-<div class="section">
-
-<h2>Skills</h2>
-
-<ul>
-
-<li>C</li>
-
-<li>Java</li>
-
-<li>Python</li>
-
-<li>HTML</li>
-
-<li>CSS</li>
-
-<li>SQL</li>
-
-</ul>
-
-</div>
-
-<div class="section">
-
-<h2>Hobbies</h2>
-
-<ul>
-
-<li>Reading</li>
-
-<li>Painting</li>
-
-<li>Story Writing</li>
-
-</ul>
-
-</div>
-
-<div class="section">
-
-<h2>Certifications</h2>
-
-<ul>
-
-<li>CodeChef Certification</li>
-
-<li>Gen AI Workshop</li>
-
-<li>AWS Workshop</li>
-
-</ul>
-
-</div>
-
-</div>
-
-<div class="right">
-
-<h2>About Me</h2>
-
-<p>
-
-Hello! I am <b>Nikshiptha Yepuganti</b>, a third-year B.Tech student specializing in
-<b>Computer Science and Engineering (AI & ML)</b> at
-<b>Sasi Institute of Technology and Engineering</b>.
-I am passionate about Artificial Intelligence, problem solving,
-and developing innovative software applications.
-
-</p>
-
-<h2>Technical Skills</h2>
-
-<div class="skills">
-
-<div class="skill">C</div>
-
-<div class="skill">Java</div>
-
-<div class="skill">Python</div>
-
-<div class="skill">HTML</div>
-
-<div class="skill">CSS</div>
-
-<div class="skill">SQL</div>
-
-</div>
-
-<div class="quote">
-
-"I enjoy solving real-world problems and building innovative applications that create meaningful impact."
-
-</div>
-
-<h2>Education</h2>
-
-<table>
-
-<tr>
-
-<th>Qualification</th>
-
-<th>Institute</th>
-
-<th>Percentage</th>
-
-</tr>
-
-<tr>
-
-<td>10<sup>th</sup></td>
-
-<td>Oakwood School</td>
-
-<td>85%</td>
-
-</tr>
-
-<tr>
-
-<td>12<sup>th</sup></td>
-
-<td>Sri Abhyasa Junior College</td>
-
-<td>92%</td>
-
-</tr>
-
-<tr>
-
-<td>B.Tech (CSE-AIML)</td>
-
-<td>Sasi Institute of Technology and Engineering</td>
-
-<td>82%</td>
-
-</tr>
-
-</table>
-
-<div class="card">
-
-<h2>Achievements</h2>
-
-<ul>
-
-<li>🥈 2nd Prize in Paper Presentation</li>
-
-<li>🥇 1st Prize in PowerPoint Presentation</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>Project</h2>
-
-<p>
-
-<b>Topic Reactor</b>
-
-<br><br>
-
-<a href="https://topicreactorreact.vercel.app/" target="_blank">
-
-https://topicreactorreact.vercel.app/
-
-</a>
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Career Objective</h2>
-
-<p>
-
-Seeking an opportunity where I can apply my programming knowledge,
-learn modern technologies, contribute to real-world projects,
-and grow as a Software Developer.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</body>
-</html> --> -->
-
-
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Resume</title>
+    <title>My Resume</title>
 
-<style>
+    <style>
+        body{
+            background-color:#eaf6f6;
+            font-family:Arial, sans-serif;
+            margin:0;
+            padding:30px;
+        }
 
-body{
-    font-family: Arial, sans-serif;
-    background:#f5f5f5;
-    margin:0;
-    padding:30px;
-}
+        .resume{
+            width:70%;
+            margin:auto;
+            background-color:white;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px gray;
+        }
 
-.resume{
-    width:800px;
-    margin:auto;
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 0 10px lightgray;
-}
+        h1{
+            text-align:center;
+            color:#0b5d7a;
+        }
 
-.header{
-    display:flex;
-    align-items:center;
-    border-bottom:2px solid #2E7D9A;
-    padding-bottom:15px;
-}
+        h3{
+            color:#0b5d7a;
+            border-bottom:2px solid #0b5d7a;
+            padding-bottom:5px;
+        }
 
-.header img{
-    width:120px;
-    height:120px;
-    border-radius:50%;
-    border:3px solid #2E7D9A;
-    margin-right:20px;
-}
+        p{
+            font-size:16px;
+        }
 
-.header h1{
-    color:#2E7D9A;
-    margin:0;
-}
+        ul{
+            line-height:1.8;
+        }
 
-.header h3{
-    color:gray;
-    margin-top:5px;
-}
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:10px;
+        }
 
-h2{
-    color:#2E7D9A;
-    border-bottom:1px solid lightgray;
-    padding-bottom:5px;
-}
+        table,th,td{
+            border:1px solid black;
+        }
 
-table{
-    width:100%;
-    border-collapse:collapse;
-}
+        th{
+            background-color:#0b5d7a;
+            color:white;
+            padding:10px;
+        }
 
-table,th,td{
-    border:1px solid gray;
-}
+        td{
+            padding:8px;
+            text-align:center;
+        }
 
-th{
-    background:#2E7D9A;
-    color:white;
-}
+        tr:nth-child(even){
+            background-color:#f2f2f2;
+        }
 
-th,td{
-    padding:10px;
-    text-align:center;
-}
+        a{
+            text-decoration:none;
+            color:blue;
+        }
 
-ul{
-    padding-left:20px;
-}
+        a:hover{
+            color:red;
+        }
 
-a{
-    color:#2E7D9A;
-    text-decoration:none;
-}
+        .contact{
+            text-align:center;
+        }
 
-</style>
-
+    </style>
 </head>
 
 <body>
 
 <div class="resume">
 
-<div class="header">
-
-<img src="profile.jpg" alt="Profile">
-
-<div>
-
 <h1>NIKSHIPTHA YEPUGANTI</h1>
 
-<h3>B.Tech Student | Aspiring Developer</h3>
+<h4 style="text-align:center;">B.Tech Student | Aspiring Developer</h4>
 
-<p>
-📧 nikshiyepuganti@gmail.com <br>
-📞 9581158424
-</p>
-
+<div class="contact">
+    <p>
+        <b>Email:</b> nikshiyepuganti@gmail.com |
+        <b>Phone:</b> 9581158424
+    </p>
 </div>
 
-</div>
-
-<h2>About Me</h2>
+<h3>About Me</h3>
 
 <p>
-Hello! I am Nikshiptha Yepuganti, a third-year B.Tech (CSE-AIML) student at
-Sasi Institute of Technology and Engineering. I am passionate about Artificial
-Intelligence, programming, and problem solving.
+Hello! I am <b>Nikshiptha Yepuganti</b>, a B.Tech 3<sup>rd</sup> year student
+from the <b>Computer Science and Engineering (AI & ML)</b> department at
+<b>Sasi Institute of Technology and Engineering</b>. I am passionate about
+Artificial Intelligence, problem solving, and developing innovative applications.
 </p>
 
-<h2>Skills</h2>
+<h3>Skills</h3>
 
 <ul>
-<li>C</li>
-<li>Java</li>
-<li>Python</li>
-<li>HTML</li>
-<li>SQL</li>
+    <li>C</li>
+    <li>Java</li>
+    <li>Python</li>
+    <li>HTML</li>
+    <li>SQL</li>
 </ul>
 
-<h2>Education</h2>
+<h3>Education</h3>
 
 <table>
 
 <tr>
-<th>Qualification</th>
-<th>Institute</th>
-<th>Percentage</th>
+    <th>S.No</th>
+    <th>Qualification</th>
+    <th>Institute</th>
+    <th>Percentage</th>
 </tr>
 
 <tr>
-<td>10th</td>
-<td>Oakwood School</td>
-<td>85%</td>
+    <td>1</td>
+    <td>10<sup>th</sup></td>
+    <td>Oakwood School</td>
+    <td>85%</td>
 </tr>
 
 <tr>
-<td>12th</td>
-<td>Sri Abhyasa Junior College</td>
-<td>92%</td>
+    <td>2</td>
+    <td>Intermediate</td>
+    <td>Sri Abhyasa Junior College</td>
+    <td>92%</td>
 </tr>
 
 <tr>
-<td>B.Tech</td>
-<td>Sasi Institute of Technology and Engineering</td>
-<td>82%</td>
+    <td>3</td>
+    <td>B.Tech</td>
+    <td>Sasi Institute of Technology and Engineering</td>
+    <td>82%</td>
 </tr>
 
 </table>
 
-<h2>Certifications</h2>
+<h3>Certifications</h3>
 
 <ul>
-<li>CodeChef Certification</li>
-<li>Gen AI Workshop</li>
-<li>AWS Workshop</li>
+    <li>CodeChef Certification</li>
+    <li>Generative AI Workshop</li>
+    <li>AWS Workshop</li>
 </ul>
 
-<h2>Achievements</h2>
+<h3>Achievements</h3>
 
 <ul>
-<li>2nd Prize in Paper Presentation</li>
-<li>1st Prize in PowerPoint Presentation</li>
+    <li>2<sup>nd</sup> Prize in Paper Presentation</li>
+    <li>1<sup>st</sup> Prize in PowerPoint Presentation</li>
 </ul>
 
-<h2>Hobbies</h2>
-
-<ul>
-<li>Reading</li>
-<li>Painting</li>
-<li>Story Writing</li>
-</ul>
-
-<h2>Project</h2>
+<h3>Project</h3>
 
 <p>
 <a href="https://topicreactorreact.vercel.app/" target="_blank">
@@ -570,9 +171,25 @@ Topic Reactor
 </a>
 </p>
 
-<h2>Motto</h2>
+<h3>Hobbies</h3>
 
-<p><i>"Work hard, Success will be yours."</i></p>
+<ul>
+    <li>Reading</li>
+    <li>Painting</li>
+    <li>Story Writing</li>
+</ul>
+
+<h3>Career Objective</h3>
+
+<p>
+To continuously learn new technologies, improve my programming skills,
+and contribute to innovative software development projects while growing
+as a successful software engineer.
+</p>
+
+<h3>Motto</h3>
+
+<p><b>"Work Hard, Success Will Be Yours."</b></p>
 
 </div>
 
